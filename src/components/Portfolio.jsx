@@ -8,14 +8,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: mysite,
+      href:"https://delanoquirino.netlify.app/",
+      code:"https://github.com/delanoquirino/delanoquirino_site",
     },
     {
       id: 2,
       src: pokelist,
+      href:"https://poke-list-dequi.vercel.app/",
+      code:"https://github.com/delanoquirino/poke-list",
     },
     {
       id: 3,
       src: sistemalogin,
+      href:"https://sistem-login.vercel.app/",
+      code:"https://github.com/delanoquirino/sistem-login",
     },
   ];
 
@@ -33,7 +39,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, href,code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -42,10 +48,10 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Site
+                  <a href={href} target="_blank" >Site</a>
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
-                  Code
+                <a href={code} target="_blank" >Code</a>
                 </button>
               </div>
             </div>

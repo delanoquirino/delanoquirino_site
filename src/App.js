@@ -7,7 +7,6 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 
 function App() {
-  document.title = 'DelanoQuirino'
   return (
    <div>
       <Navbar/>

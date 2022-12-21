@@ -7,7 +7,7 @@
 
 ## 💻 Project
 
-My website was created in order to demonstrate my skills and share my knowledge. I did everything from the UX / UI Design part to the code.
+Site pessoal criado para mostrar meus projetos como desenvolvedor front-end.
 
 <br>
 
@@ -16,4 +16,4 @@ My website was created in order to demonstrate my skills and share my knowledge.
 - React
 - Tailwindcss
 
-Made with 💜 by Delano Quirino 👋 [See my linkedin](https://www.linkedin.com/in/delanoquirino/)
+Feito com 💜 por Delano Quirino 👋 [Veja meu Linkedin](https://www.linkedin.com/in/delanoquirino/)
